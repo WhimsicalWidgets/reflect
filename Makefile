@@ -12,7 +12,8 @@ format:
 
 checkFormat:
 	@echo "Checking format..."
-	@prettier --check "**/*.{Makefile,js,jsx,ts,tsx,json,css,md,yaml}"
+	@prettier --check "**/*.{Makefile,js,jsx,ts,tsx,json,css,md,yaml,json}"
+	@eslit app
 
 turbo:
 	pnpm turbo build
