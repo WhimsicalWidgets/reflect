@@ -13,4 +13,4 @@ Send PRs with fun styling options.
 
 ## Example
 
-A live example of Reflect is hosted at [reflect.whimsicalwidgets.win](https://reflect.whimsicalwidgets.win?success=true&Thank you=for checking out my reflection.).
+A live example of Reflect is hosted at [reflect.whimsicalwidgets.win](https://reflect.whimsicalwidgets.win/?success=true&Thank%20you=for%20checking%20out%20my%20reflection.).
