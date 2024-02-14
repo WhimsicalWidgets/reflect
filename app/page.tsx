@@ -1,10 +1,10 @@
 'use client'
 import { useSearchParams } from 'next/navigation'
-import React from 'react'
+import React, { Suspense } from 'react'
 
 import styles from './Page.module.css'
 
-function QueryParamsDisplay() {
+function DisplayQueryParams() {
   const searchParams = useSearchParams()
 
   function isSingleWord(value: string) {
@@ -31,4 +31,10 @@ function QueryParamsDisplay() {
   )
 }
 
-export default QueryParamsDisplay
+export default function Home() {
+  return (
+    <Suspense>
+      <DisplayQueryParams />
+    </Suspense>
+  )
+}
