@@ -1,6 +1,6 @@
 # Reflect - Display Query Parameters with Next.js
 
-I made this to be a generic placeholder langing page I can direct users to from anywhere with a decently formatted message.
+I made this to be a generic placeholder landing page to inform users from anywhere with a decently formatted message.
 
 ## Please
 
